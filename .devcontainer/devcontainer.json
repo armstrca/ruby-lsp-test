@@ -31,11 +31,14 @@
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {
-      "extensions": ["vortizhe.simple-ruby-erb",
-                     "mbessey.vscode-rufo",
-                     "aliariff.vscode-erb-beautify",
-                     "eamodio.gitlens",
-                     "setobiralo.erb-commenter"]
+      "extensions": [
+        "vortizhe.simple-ruby-erb",
+        "mbessey.vscode-rufo",
+        "aliariff.vscode-erb-beautify",
+        "eamodio.gitlens",
+        "setobiralo.erb-commenter",
+        "Shopify.ruby-lsp"
+      ]
     }
   }
 

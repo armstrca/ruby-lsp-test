@@ -58,7 +58,7 @@ RUN curl -sSL https://rvm.io/mpapis.asc | gpg --import - \
         && rvm install 3.2.1 \
         && rvm use 3.2.1 --default \
         && rvm rubygems current \
-        && gem install bundler:2.4.6 --no-document" \
+        && gem install bundler:2.5.16 --no-document" \
     && echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*' >> /home/student/.bashrc.d/70-ruby
 RUN echo "rvm_gems_path=/home/student/.rvm" > ~/.rvmrc
 
